@@ -17,6 +17,7 @@
   <link href="css/scrolling-nav.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="css/menu.css">
+  <link href="css/widget.css" rel="stylesheet">
 
   <link rel="stylesheet" type="text/css" href="js/fullPage.js-master/dist/fullpage.css" />
 
@@ -24,6 +25,7 @@
 
 <body id="page-top">
 
+  
 
 <!-- Footer -->
 <nav class="navbar fixed-bottom">
@@ -358,14 +360,36 @@
         <div class="bottom text-center bg-dark">
           <p>Домостроительное оборудование. <br>Все права защищены. <br>Доставка оборудования по странам СНГ</p>
         </div>
+    </div>
 </div>
 
-<div class="mouse"></div>
-<p>Scroll</p>
-<!-- partial -->
-  <script  src="./script.js"></script>
-  
+<div id="scrolled-socials" class="smm-fixed fix" style="position: fixed; display: block;">
 
+    <div id="j-show-hide-icons" class="icons-inner rotate-cross-clockwise show-icons">
+        <div class="icons-tmpl"></div>
+    </div>
+
+
+
+    <div class="icons" id="j-icons">
+        <div class="wrap-messengers">
+
+    
+    <div class="links viber">
+        <a href="viber://add?number=+79099007719" rel="nofollow"></a>
+    </div>
+    <div class="links tg">
+        <a href="https://tele.click/Hormigonservis" rel="nofollow" target="_blank">Телеграм</a>
+    </div>
+        <div class="links wapp">
+            <a href="https://wa.me/79099007719?text=Я%20заинтересован%20в%20покупке%20вашего%20домостроительного%20оборудования" rel="nofollow" target="_blank"></a>
+        </div>
+    <div class="links fb-mes">
+        <a href="https://www.messenger.com/t/Андрей-Грудкин" rel="nofollow" target="_blank"></a>
+    </div>
+        </div>
+    </div>
+</div>
 
 
   <script type="text/javascript" src="js/fullPage.js-master/vendors/scrolloverflow.js"></script>
@@ -390,7 +414,7 @@
     });
    </script>
 
-
+ 
    
 
   <!-- Bootstrap core JavaScript -->
@@ -403,7 +427,17 @@
   <!-- Custom JavaScript for this theme -->
   <script src="js/scrolling-nav.js"></script>
 
-  
+  <script type="text/javascript">
+        /* Widget messangers */
+        	$( document ).ready(function(){
+	  $('#scrolled-socials').click(function() {
+           $('#j-show-hide-icons').toggleClass("hide-icons show-icons");
+           $('#j-show-hide-icons').toggleClass("rotate-cross-clockwise rotate-cross-counterclockwise");
+           $('#j-icons').toggleClass("icons icons-available");
+
+});  
+	});
+        </script>
 
 </body>
 
