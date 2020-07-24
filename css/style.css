@@ -1,26 +1,31 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:700");
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;1,100;1,300;1,400;1,600;1,900&display=swap');
 
 body {
 
-    background: linear-gradient(90deg, #171616 0%, #210F0F 31.19%, #111421 75.97%, #171616 100%);
+    background: #EBEBEB;
     padding: 0;
 }
 
 a {
 	text-decoration: none;
-	color: white;
+    color: #EBEBEB;
+	
 }
 
 a:hover{
 	text-decoration: none;
-	color: white;
+	color: #343a40;
 }
 
 .nav-link {
 	padding: 0;
 }
 
+.fp-tableCell {
+    display: unset !important;
+}
 .container {
 	max-width: 1920px;
 }
@@ -29,38 +34,35 @@ a:hover{
 	padding: 0;
 }
 
-#fp-nav ul li a span {
-	background: white !important;
-}
+
 
 .logo {
-	width: 518px;
-	height: 110px;
+	font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
 	text-align: center;
 	line-height: 1;
-	transition: all 0.5s;
+	
 
 }
 
 #name {
-    
     font-style: normal;
-    font-size: 70px;
-    font-weight: 600;
-    -moz-background-color: #F76464;
-    color: transparent;
-    text-shadow: 1px 1px #A90000, -1px -1px #F76464;
-    background-clip: text;
-    transition: all 0.3s;
+    font-weight: bold;
+    font-size: 22px;
+    color: #EBEBEB;
+
 
 }
+
 
 .navbar-brand {
 	margin: 0;
 }
 
 #mainNav .container {
-	height: 100px;
+	background: #767676;
+    padding: 10px;
 }
 
 
@@ -133,9 +135,6 @@ a:hover{
 	height: 150px;
 }
 
-#section1 img {
-	transform: scale(1.1, 1.1);
-}
 
 .form-control, .btn {
 	background: #807A7A;
@@ -251,8 +250,10 @@ input::placeholder, textarea::placeholder  {
     position: absolute;
     height:174px;
     width:87px;
-    border-radius: 0px 87px 87px 0;
+    border-radius: 4px 87px 87px 4px;
     background: rgba(118, 118, 118, 1);
+    transform: scale(0.5); 
+    top: calc(30% - 44px);
 
 }
 
@@ -261,9 +262,10 @@ input::placeholder, textarea::placeholder  {
     position: absolute;
     height:174px;
     width:87px;
-    border-radius: 87px 0px 0px 87px;
+    border-radius: 87px 4px 4px 87px;
     background: rgba(118, 118, 118, 1);
-
+    transform: scale(0.5); 
+    top: calc(30% - 44px);
 }
 
 
@@ -272,7 +274,9 @@ input::placeholder, textarea::placeholder  {
     height: 120px;
     width: 80px;
     position: relative;
-    z-index: 100;    
+    z-index: 100; 
+    top: calc(50% - 60px);
+
 }
 .arrow-2-top, 
 .arrow-2-bottom {
@@ -325,9 +329,10 @@ input::placeholder, textarea::placeholder  {
     cursor: pointer;
     height: 120px;
     width: 80px;
-    position: relative;
+    position: relative; 
     z-index: 100;
-    transform: rotate(180deg);    
+    transform: rotate(180deg);
+    top: calc(50% - 60px);   
 }
 .arrow-1-top, 
 .arrow-1-bottom {
