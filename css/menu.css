@@ -15,7 +15,7 @@ html, body {
   position: absolute;
   right: -40px;
   width: 320px;
-  height: 52px;
+  height: 30px;
   margin-left: -250px;
   transform: translateZ(0);
 }
@@ -45,19 +45,19 @@ html, body {
   top: 0;
   left: 0;
   width: 70px;
-  line-height: 52px;
+  line-height: 30px;
   text-align: center;
   font-family: fontawesome;
   font-size: 24px;
 }
 .nav .link .full {
   position: absolute;
-  top: 10px;
+
   left: 70px;
   text-transform: uppercase;
 }
 .nav .link .full .f1, .nav .link .full .f2 {
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 700;
   white-space: nowrap;
 }
@@ -71,7 +71,7 @@ html, body {
   left: 2px;
   font-family: fontawesome;
   font-size: 12px;
-  line-height: 52px;
+  line-height: 30px;
   transition: .5s opacity;
   opacity: 0;
 }
