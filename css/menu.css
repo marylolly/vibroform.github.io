@@ -10,22 +10,18 @@ html, body {
   height: 100vh;
 }
 
-
 .nav {
-  position: absolute;
-  right: -40px;
+  float: right;
   width: 320px;
-  height: 30px;
-  margin-left: -250px;
+  height: 50px;
   transform: translateZ(0);
+  line-height: 50px;
 }
-.nav:hover .link {
-  width: 5%;
-}
+
 .nav .link {
   position: relative;
   float: left;
-  width: 70px;
+  width: 60px;
   height: 100%;
   color: #EBEBEB;
   border-right: 1px solid #ddd;
@@ -37,15 +33,15 @@ html, body {
   border-right: 0;
 }
 .nav .link:hover {
-  width: 80%;
+  width: 40%;
   color: #555;
+  background-color: #ebebeb;
 }
 .nav .link .small {
   position: absolute;
   top: 0;
   left: 0;
-  width: 70px;
-  line-height: 30px;
+  width: 60px;
   text-align: center;
   font-family: fontawesome;
   font-size: 24px;
@@ -53,7 +49,7 @@ html, body {
 .nav .link .full {
   position: absolute;
 
-  left: 70px;
+  left: 60px;
   text-transform: uppercase;
 }
 .nav .link .full .f1, .nav .link .full .f2 {
@@ -71,13 +67,9 @@ html, body {
   left: 2px;
   font-family: fontawesome;
   font-size: 12px;
-  line-height: 30px;
   transition: .5s opacity;
   opacity: 0;
 }
-.nav .link:hover .prev {
-  opacity: 0;
-}
-.nav:hover .prev {
-  opacity: 1;
-}
+ .link:hover a {
+  color: #555;
+ }
