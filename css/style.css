@@ -813,7 +813,7 @@ html.fa-events-icons-ready.fp-enabled body#page-top.fp-viewing-oborudovanie div#
 }
 
 .fixed-bottom {
-    height: 75px;
+    opacity: 0.8;
     background: #767676;
 }
 
