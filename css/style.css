@@ -54,7 +54,12 @@ a {
 
 a:hover{
 	text-decoration: none;
-	color: unset !important;
+	color: #EBEBEB !important;
+}
+
+button:hover{
+    text-decoration: none;
+    color: #696969 !important;
 }
 
 h3 {
@@ -617,7 +622,6 @@ input::placeholder, textarea::placeholder  {
 .slider-text {
     position: absolute;
     width: 502px;
-    height: 247px;
     left: 328px;
     top: 73px;
     background: rgba(235, 235, 235, 0.9);
@@ -637,14 +641,13 @@ input::placeholder, textarea::placeholder  {
     line-height: 17px;
     color: #767676;
     width: 457px;
-    height: 104px;
     margin: 100px 20px 10px 20px;
     text-align: left;
 }
 
 
 .slider-text button {
-    position: absolute;
+    
     width: 133px;
     height: 26px;
     background: rgba(196, 196, 196, 0.4);
@@ -666,8 +669,8 @@ input::placeholder, textarea::placeholder  {
     position: absolute;
     width: 415px;
     height: 71px;
-    left: 301px;
-    top: 88px;
+    left: -28px;
+    top: 15px;
     background: #767676;
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.25);
     border-radius: 10px 5px 5px 0px;
@@ -688,8 +691,8 @@ input::placeholder, textarea::placeholder  {
     position: absolute;
     width: 28px;
     height: 28px;
-    left: 301px;
-    top: 159px;
+    left: -28px;
+    top: 86px;
     
     border: 14px solid transparent; 
     border-top: 14px solid #595656; 
